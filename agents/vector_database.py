@@ -30,7 +30,7 @@ class FinancialKnowledgeTool(BaseTool):
             # Create knowledge graph instance in _run method
             try:
                 knowledge_graph = FinancialKnowledgeGraph(
-                    neo4j_password="Vrushank@56789",  
+                    neo4j_password="Your_Password_Here",  
                     uploads_directory="./uploads"
                 )
                 print("Knowledge graph created successfully")
